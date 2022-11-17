@@ -1,0 +1,25 @@
+.block2{
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+.button4{
+    border: 0;
+    background : none;
+}
+.block3{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.block7{
+    display: flex;
+    flex-direction: column; 
+}
+.input4{
+    width: 120px;
+}
+.counterinput{
+    width: 300px;
+}

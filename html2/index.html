@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+    <div id="elem1">При нажатии на кнопку текст в абзаце поменяется.</div>
+    <button onclick="func1()">Нажми на меня!</button>
+    <div id="elem2">При нажатии на кнопку текст в абзаце поменяется.</div>
+    <button onclick="func2()">Нажми на меня!</button>
+    <div id="elem3">При нажатии на кнопку абзац станет h3, но текст останется.</div>
+    <button onclick="func3()">Нажми на меня!</button><br>
+    <input type="text" value id="value1">
+    "+"
+    <input type="text" value id="value2">
+    "="
+    <span id="span1">?</span><br>
+    <button onclick='document.getElementById("span1").innerHTML = +document.getElementById("value1").value + +document.getElementById("value2").value;'>Нажмите чтобы сложить</button>
+    <p class="zzz">При нажатии на кнопку текст в каждом абзаце поменяется.</p>
+    <p class="zzz">При нажатии на кнопку текст в каждом абзаце поменяется.</p>
+    <p class="zzz">При нажатии на кнопку текст в каждом абзаце поменяется.</p>
+    <h2 id="elem5">Заголовок с классом elem5, не поменяется.</h2>
+    <input type="submit" onclick="func5()" value="Нажмите на меня!">
+    <h2 class="www">Заголовок с классом www.</h2>
+    <p class="www">Абзац с классом www.</p>
+    <p class="www">Абзац с классом www.</p>
+    <p>Просто абзац, не поменяется.</p>
+    <input type="submit" onclick="func6()" value="Нажмите на меня!">
+    <h2 class="www1">Заголовок с классом www, не поменяется.</h2>
+    <p class="www1">Абзац с классом www1.</p>
+    <p class="www1">Абзац с классом www1.</p>
+    <p class="www1">Абзац с классом www1.</p>
+    <p>Просто абзац, не поменяется.</p>
+    <input type="submit" onclick="func7()" value="Нажмите на меня!">
+    <p class="my-class">Абзац с class="my-class".</p>
+    <input type="submit" onclick="func8()" value="Нажми - и я выведу класс абзаца.">
+    <p id="elem9" class="my-class2">
+		Абзац с class="my-class". Класс задает красный цвет.
+	</p>
+    <input type="submit" value="Нажми - и я выведу класс абзаца." onclick="func9()"><br><br>
+    <input type="submit" value="Нажми - и я удалю атрибут class для абзаца." onclick="func9_1()"><br><br>
+    <p id="elem10" class="my-class3 class3">
+		Абзац с class="my-class class". Класс "my-class" задает красный цвет.
+	</p>
+    <input type="submit" value="Нажми - и я выведу класс абзаца." onclick="func10()"><br><br>
+    <input type="submit" value="Нажми - и я изменю атрибут class для абзаца на 'new-class'." onclick="func10_1()"><br><br>
+    <input type="text" value="" placeholder="Введи в меня текст!" id="elem11" onkeyup="func11()">
+    <span id="elem11_1"></span><br>
+    <a class="elem12" href="http://google.ru">ссылка 1</a><br><br>
+    <a class="elem12" href="http://tut.by">ссылка 2</a><br><br>
+    <a class="elem12" href="http://yandex.ru">ссылка 3</a><br><br>
+    <input type="submit" value="Нажмите на меня!" onclick="func12()">
+    <p id="elem13">
+		При нажатии на кнопку текст в абзаце поменяется.
+	</p>
+    <input id="input13" type="submit" value="Нажмите на меня!" onclick="funk13()">
+    <p class="elem14">Абзац с текстом.</p>
+    <p class="elem14">Абзац с текстом.</p>
+    <p class="elem14">Абзац с текстом.</p>
+    <p class="elem14">Абзац с текстом.</p>
+    <p class="elem14">Абзац с текстом.</p>
+    <p class="elem14">Абзац с текстом.</p>
+    <p class="elem14">Абзац с текстом.</p>
+    <p class="elem14">Абзац с текстом.</p>
+    <input type="submit" value="Нажмите на меня!" onclick="func14()">
+    <p class="elem15">Абзац с текстом.</p>
+    <p class="elem15">Абзац с текстом.</p>
+    <p class="elem15">Абзац с текстом.</p>
+    <p class="elem15">Абзац с текстом.</p>
+    <p class="elem15">Абзац с текстом.</p>
+    <p class="elem15">Абзац с текстом.</p>
+    <p class="elem15">Абзац с текстом.</p>
+    <p class="elem15">Абзац с текстом.</p>
+    <input type="submit" value="Нажмите на меня!" onclick="func15()">
+    <script src="../js/skript2.js"></script>
+</body>
+</html>
